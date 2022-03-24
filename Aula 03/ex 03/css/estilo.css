@@ -1,0 +1,39 @@
+body{
+    background-color: #f4f1de;
+}
+
+.title{
+    width: 150px;
+    text-align: center;
+    margin: 33px;
+    background-color: #ee6c4d;
+    color: #293241;
+    font-family: Tahoma, sans-serif, Verdana, Segoe UI, Geneva, Verdana;
+    font-weight: 500;
+}
+
+.tabela{
+    color: #293241;
+    font-family: Verdana, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+.linha{
+    padding-left: 35px;
+}
+
+.destaque{
+    padding-left: 35px;
+    color: #ee6c4d;
+    font-family: Verdana, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pequeno{
+    padding-left: 37px;
+    color: #3d5a80;
+    font-family:   Tahoma, Segoe UI, Verdana, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
