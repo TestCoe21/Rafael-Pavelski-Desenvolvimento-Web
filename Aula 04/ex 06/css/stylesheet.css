@@ -1,0 +1,43 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+
+header nav{
+    text-align: center;
+    list-style: none;
+}
+
+ul{
+    padding-left: 631px;
+}
+
+ul li{
+    display: inline;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+.banner{
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
+.caixa{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 10%;
+    left: 14.7%;
+    padding: 25px;
+    text-align: left;
+}
