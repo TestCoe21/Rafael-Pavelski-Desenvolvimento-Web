@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+
+html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(107, 107, 107);
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(47, 47, 47);
+    border-radius: 20px;
+    border: 3px solid rgb(47, 47, 47);
+  }
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background: linear-gradient(68.15deg, #105a72 19.62%, #17a1cf 85.61%);
+    margin: 0;
+}
+
+.containerCss{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(68.15deg, #05303e 19.62%, #106784 85.61%);
+}
+
+nav ul{
+    margin-top: 0;
+    text-align: center;
+    padding-top: 1.4em;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+nav li a{
+    color: #f6f6f7d7;
+    font-weight: bold;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #afafafd7;
+    text-decoration: none;
+}
+
+hr{
+    border-style: none;
+    border-top: 1.5px dotted #05303e;
+    padding-bottom: 3em;
+}
+
+.perfil{
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.perfil-left{
+    float: left;
+    width: 50%;
+}
+
+.perfil-left img{
+    width: 500px;
+    padding-left: 3em;
+}
+
+.perfil-right{
+    float: right;
+    width: 50%;
+}
+
+.perfil-right h1{
+    padding-top: 2em;
+    text-align: center;
+}
+
+.perfil-right p{
+    text-align: justify;
+    padding-top: 1em;
+    font-weight: bold;
+}
+
+.texto{
+    padding-right: 6.6em;
+}
+
+.exp{
+    width: 100%;
+    height: 320px;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 1.5em;
+}
+
+.exp-left{
+    width: 50%;
+    float: left;
+    padding-bottom: 0;
+}
+
+.exp-left article{
+    text-align: center;
+    width: 100%;
+    padding-top: 2.5em;
+    border-right: 1px solid #05303e;
+}
+
+.img-article{
+    width: 130px;
+}
+
+.exp-right{
+    width: 50%;
+    height: 220px;
+    float: right;
+    padding-bottom: 0;
+}
+
+.exp-right h2{
+    padding-top: 0;
+}
+
+.exp-right article{
+    text-align: center;
+    width: 100%;
+    padding-top: 3em;
+}
+
+.exp h1{
+    text-align: center;
+    padding-bottom: 1em;
+    padding-top: 0;
+}
+
+.cert{
+    width: 100%;
+    height: 1100px;
+    position: relative;
+    padding-top: 0;
+    padding-bottom: 2em;
+}
+
+.cert article{
+    padding-bottom: 1em;
+}
+
+.cert-left{
+    width: 50%;
+    float: left;
+    border-right: #05303e solid 1px;
+    position: absolute;
+}
+
+.cert-left article{
+    text-align: center;
+}
+
+.cert img{
+    width: 100px;
+}
+
+.ms img{
+    width: 60px;
+}
+
+.semrush img{
+    width: 120px;
+}
+
+.gg img{
+    width: 80px;
+}
+
+.cert-right{
+    width: 50%;
+    float: right;
+}
+
+.cert-right h2{
+    padding-top: 0;
+}
+
+.cert-right article{
+    text-align: center;
+}
+
+.cert h1{
+    text-align: center;
+    padding-bottom: 1.5em;
+}
+
+.aulas{
+    width: 100%;
+}
+
+.aulas h1{
+    text-align: center;
+}
+
+.aulas-topo{
+    width: 100%;
+    padding-top: 2em;
+}
+
+.aulas-topo article{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.aulas-topo img{
+    width: 83px;
+}
+
+.aulas-baixo{
+    width: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.aulas-baixo article{
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+.aulas-baixo img{
+    width: 83px;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(68.15deg, #05303e 19.62%, #0d5770 85.61%);
+    position: absolute;
+    float: inline-end;
+}
+
+footer img{
+    width: 30px;
+}
+
+footer ul{
+    margin-top: 0;
+    text-align: center;
+    padding-top: 1em;
+    padding-left: 0;
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer li img{
+    color: #def7ffd7;
+    font-weight: bold;
+    display: flow-root;
+    margin-right: 70px;
+    margin-left: 70px;
+}
